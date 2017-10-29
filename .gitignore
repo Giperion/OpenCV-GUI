@@ -1,0 +1,64 @@
+# Normal rules
+#
+.*
+*.o
+*.o.*
+*.a
+*.so
+*.so.dbg
+*.bin
+*.gz
+
+# Visual studio solution files
+*.tlog
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.db
+*.opendb
+*.exp
+*.res
+*.ncb
+*.suo
+*.sdf
+*.opensdf
+*.sln.cache
+*.vsp
+ipch
+*.user
+
+#Qt moc files
+moc_*
+
+#FaerieFire debug configs
+Gateway/GatewayConfig.ini
+
+#OpenCV GUI Specific
+GeneratedFiles/*
+
+#
+# Top-level generic files
+#
+bin
+!.gitignore
+!.gitattributes
+
+#
+# Editors / debuggers / other output files
+#
+*~
+*.bak
+*.orig
+*.patch
+callgrind.out.*
+
+#
+# Git stuff
+#
+# stgit directories
+patches-*
+
+#
+# VS binaries output
+#
+bin/*

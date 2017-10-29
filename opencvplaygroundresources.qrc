@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>OpenCV-Playground-Logo-256px.ico</file>
+    </qresource>
+    <qresource prefix="/ui">
+        <file>QMLTest.qml</file>
+        <file>VideoOutputWidget.qml</file>
+        <file>CVMenuItem.qml</file>
+    </qresource>
+</RCC>
